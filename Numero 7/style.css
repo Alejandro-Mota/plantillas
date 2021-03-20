@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  header{
+      height: 10vh;
+      width: 100vw;
+      background-color: lightseagreen;
+  }
+  main{
+      height: 60vh;
+      width: 100vw;
+      background-color: lightsalmon;
+  }
+  section{
+      height: 20vh;
+      width: 100vw;
+      display: flex;
+  }
+  section div{
+      flex: 1;
+      margin: 1rem;
+      background-color: goldenrod;
+  }
+  footer{
+      height: 10vh;
+      width: 100vw;
+      background-color: indianred;
+  }
