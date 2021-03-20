@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  header{
+      width: 100vw;
+      height: 15vh;
+      background-color: chocolate;
+  }
+  main{
+      width: 100vw;
+      height: 70vh;
+      background-color: cornflowerblue;
+      display: flex;
+  }
+  main aside{
+    height: 70vh;
+    flex: 1;
+    background-color: salmon;
+}
+main div{
+    flex: 4;
+    background-color: seagreen;
+    height: 70vh;
+}
+  footer{
+      width: 100vw;
+      height: 15vh;
+      background-color: saddlebrown;
+  }
+ 
