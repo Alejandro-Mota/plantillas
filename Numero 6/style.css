@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-size: 62.5%; 
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    background-color: #dad2d8;
+  }
+
+header{
+    
+    font-family: 'Acme';
+    background-color: #a8201a;
+    height: 15vh;
+    color: #D0CFCF;
+}
+
+header h1 {
+    padding-top: 0.8rem;
+    text-align: center;
+    font-size: 8rem;  
+}
+
+nav{
+    background-color: #ec9a29;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    width: 65%;
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links a{
+    color: rgb(14, 14, 14);
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+}
+.links a:hover{
+    background-color: #c5852b;
+    font-weight: bold;
+}
+.inputs {
+    width: 35%;
+    display: flex;
+    align-items: center;
+
+}
+.input-texto{
+    height: 5vh;
+    background-color: #ebe6e0;
+    margin-right: 2px;
+    border: 1.5px #c5852b solid;
+    font-size: 1.5rem;
+    color:  #2e200c ;
+    padding-left: 5px;
+    border-radius: 0.8rem;
+
+}
+.boton{
+    height: 4vh;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+main{
+   
+    height: 75vh;
+}
+
+
+.main{
+    display: flex;
+}
+
+
+.centro {
+    width: 60vw;
+    background-image: url(img/sala.jpg);
+    background-repeat:repeat;
+    background-size:cover;
+    background-position: center;
+    border-radius: 1rem;
+}
+
+.centro-contenido{
+    background-color:  rgba(0, 0, 0, 0.445);
+    position: absolute;
+    height: 75vh;
+    width: 60vw;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color: #ebe6e0;
+    
+    
+}
+.centro-contenido p:first-of-type{
+    font-size: 4rem;
+    margin: 0;
+}
+
+.centro-contenido p {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.columna{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+  
+}
+
+.cuadrito{
+    padding: 1rem;
+    background-color: #42424275;
+    height: 27vh;
+     margin: 5px;
+     border-radius: 4rem;
+     text-align: center;
+
+
+}
+.cuadrito img{
+    width: 10rem;
+    margin: 1rem;
+}
+.cuadrito p:first-of-type{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.cuadrito p{
+    font-size: 1.3rem;
+}
+.cuadrito p span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer{
+    background-color: #242020;
+    ;
+    height: 5vh;
+}
+footer svg:hover{
+    cursor:pointer;
+
+}
