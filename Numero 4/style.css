@@ -11,4 +11,32 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+  header{
+    width: 100vw;
+    height: 15vh;
+    background-color: chocolate;
+  }
+  main{
+    display: flex;
+    width: 100vw;
+    height: 85vh;
+    background-color: coral;
+  }
+  .centro{
+    flex: 2;
+    background-color: darkgreen;
+  }
   
+
+  main section{
+    flex: 1;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .cuadrito{
+    flex: 1;
+    margin:  .5rem;
+    background-color: darkslategray;
+  }
