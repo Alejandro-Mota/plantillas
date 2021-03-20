@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  main{
+      width: 100vw;
+      height: 100vh;
+      background-color: seagreen;
+      display: flex;
+  }
+  .izquierda{
+      flex: 1;
+      background-color: slateblue;
+  }
+  .derecha{
+      flex: 4;
+      background-color: steelblue;
+      display: flex;
+      flex-direction: column;
+  }
+  .arriba{
+      flex: 1;
+      background-color:teal
+  }
+  .division{
+      flex: 4;
+      background-color: tomato;
+      display: flex;
+  }
+  .div-izq{
+      flex: 1;
+      background-color: darkolivegreen;
+  }
+  .div-der{
+      flex: 1;
+      background-color: firebrick;
+  }
+
+  .abajo{
+      flex: 1;
+      background-color: cornflowerblue;
+  }
