@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  header{
+      height: 10vh;
+      width: 100vw;
+      background-color: orangered;
+  }
+  main{
+      height: 90vh;
+      width: 100vw;
+      display: flex;
+      
+  }
+  .izquierda{
+      flex: 1;
+      background-color: palevioletred;
+  }
+  .centro{
+      flex: 4;
+      background-color: whitesmoke;
+      display: flex;
+      flex-direction: column;
+  }
+  .centro div{
+    flex: 1;
+    background-color: goldenrod;
+    margin: .5rem;
+  }
+  .derecha{
+    flex: 1;
+    background-color: palevioletred;
+  }
