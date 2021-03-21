@@ -13,28 +13,124 @@ html {
   }
   header{
       width: 100vw;
-      height: 15vh;
-      background-color: chocolate;
+      height: 10vh;
+      background-color: #b2b2b2;
+      border-bottom: black 0.2rem solid;
+      font-family: 'Merriweather', serif;
+      font-size: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
   }
   main{
       width: 100vw;
-      height: 70vh;
-      background-color: cornflowerblue;
+      height: 80vh;
+      background-color: #e9e3e6;
       display: flex;
   }
   main aside{
-    height: 70vh;
+    
     flex: 1;
-    background-color: salmon;
+    background-color: #c3baba;
+    border-right: black 0.2rem solid ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
 }
-main div{
+.link img{
+    width: 4rem;
+    margin: 1rem;
+
+}
+.link{
+    padding: 2rem 0;
+    display: flex;
+    font-size: 4rem;
+    border-top: #a39d9d 0.1rem solid ;
+    border-bottom: #a39d9d 0.1rem solid ;
+
+}
+
+.link:hover{
+    cursor: pointer;
+    background-color: #a39d9d;
+    font-weight: bold;
+
+}
+.link p {
+    text-align: center;
+}
+
+main > section{
     flex: 4;
-    background-color: seagreen;
-    height: 70vh;
+    background-color: #e9e3e6;
+    
+}
+.espacio-noticias{
+    display: flex;
+    flex-direction: column;
+
+}
+.noticia{
+    flex: 1;
+    display: flex;
+    
+    margin: 2rem 5rem;
+    border: black 0.1rem solid;
+}
+.noticia-imagen{
+    flex: 1;
+    border: black .1rem solid;
+}
+.noticia-texto{
+    flex: 6;
+    
+}
+.noticia-texto p:first-of-type{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-left:2rem ;
+    border-bottom: black 0.1rem solid;
+}
+.noticia-texto p:last-of-type {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.noti1{
+    background-image: url(img/noti1.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.noti2{
+    background-image: url(img/Noti2.png);
+    background-position: center;
+    background-size: cover;
+}
+.noti3{
+    background-image: url(img/noti3.png);
+    background-position: center;
+    background-size: cover;
+}
+.noti3{
+    background-image: url(img/noti3.png);
+    background-position: center;
+    background-size: cover;
+}
+.noti4{
+    background-image: url(img/noti4.png);
+    background-position: center;
+    background-size: cover;
 }
   footer{
       width: 100vw;
-      height: 15vh;
-      background-color: saddlebrown;
+      height: 10vh;
+      background-color: #736f72;
+      border-top: black 0.2rem solid ;
+      text-align: center;
+      font-size: 2rem;
+      color: whitesmoke;
   }
  
