@@ -14,25 +14,86 @@ html {
   header{
       height: 10vh;
       width: 100vw;
-      background-color: lightseagreen;
+      background-color: #1c1e21;
+      color: whitesmoke;
+      display: flex;
+      justify-content: space-between;
+  }
+  .logo{
+      display: flex;
+      align-items: center;
+      font-size: 3rem;
+      background-color: #121314;
+      margin: 0.5rem 10rem;
+      border-radius: 1rem;
+      border: rgb(109, 109, 109) solid;
+      text-overflow: clip;
+      
   }
   main{
       height: 60vh;
       width: 100vw;
       background-color: lightsalmon;
+      background-image: url(img/Fondo.jpg);
+      background-position:center;
+      background-size:cover;
   }
+  .conjunto-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 5rem;
+  }
+  .link{
+      text-decoration: none;
+      color: whitesmoke;
+      font-size: 2.5rem;
+      margin-left: 4rem;
+  }
+  .link:hover{
+    font-weight: bold;
+  }
+  .Main-contenido{
+    background-color: rgba(36, 35, 35, 0.699);
+      height: 60vh;
+      width: 100vw;
+      display: flex;
+      align-items: flex-end;
+  }
+  .Main-contenido p {
+      color: rgb(201, 201, 201);
+      font-size: 5rem;
+      text-align: center;
+      text-overflow: clip;
+      
+      
+  }
+  
   section{
       height: 20vh;
       width: 100vw;
       display: flex;
+      background-color: #2f3135;
   }
   section div{
       flex: 1;
-      margin: 1rem;
-      background-color: goldenrod;
+      margin: 2rem;
+      background-color: rgb(80, 79, 79);
+  }
+  .marcador{
+      display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .marcador img{
+      width: 8rem;
+      height: 9rem;
+  }
+  .marcador p{
+      font-size: 6rem;
   }
   footer{
       height: 10vh;
       width: 100vw;
-      background-color: indianred;
+      background-color: rgb(26, 26, 26);
   }
