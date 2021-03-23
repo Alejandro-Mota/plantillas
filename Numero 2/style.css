@@ -9,6 +9,8 @@ html {
   }
 body{
     font-size:16px ;
+    font-family: 'Roboto', sans-serif;
+   
 }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -25,6 +27,9 @@ header{
 
 .logo{
     font-size: 3rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
 }
 .usuario{
     display: flex;
@@ -74,11 +79,77 @@ main{
 .izquierda{
     background-color: #cc9ab5;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 2rem;
+}
+.separador{
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    
+}
+.canal{
+    font-size: 2rem;
+}
+.canal:hover{
+    background-color: #b37495;
 }
 .centro{
+    
     background-color: #f3dbea;
    flex: 4;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 }
+.mensaje{
+    margin: 2rem 5rem;
+
+}
+.mensaje-abajo{
+    text-align: center;
+}
+.mensaje-abajo img{
+    width: 30rem;
+
+}
+.mensaje-arriba{
+    display: flex;
+    
+}
+.hora{
+    align-self: flex-end;
+}
+.mensaje-abajo{
+    border: #b37495 1px solid;
+    margin-left: 8rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 7rem;
+    border-top-left-radius: 0;
+}
+.editor-mensajes{
+    border-top: #b37495 1px solid;
+    padding:2rem ;
+    text-align: center;
+    display: flex;
+   justify-content: center;
+
+}
+.mensajon{
+    width: 50rem;
+    background-color: #f3dbea;
+    font-size: 2rem;
+     border: #b37495 1px solid;
+     color: #b37495;
+     padding: .2rem 1rem;
+     margin: 0 2rem;
+    
+}
+
+
 .derecha{
     background-color: #cc9ab5;
     flex: 1;
@@ -87,10 +158,14 @@ main{
     align-items: center;
     justify-content: space-around;
 }
-
+.derecha .usuario:hover{
+    background-color: #b37495;
+}
 
 footer{
     height: 10vh;
     width: 100vw;
     background-color: #994d74;
+    padding-top: 2rem;
+    padding-left: 3rem;
 }
