@@ -15,17 +15,59 @@ html {
       display: flex;
       width: 100vw;
       height: 100vh;
+      
   }
-
+  h3{
+    font-size: 3rem;
+  }
+  h4{
+    font-size: 2.5rem;
+  }
+  .logo{
+    display: flex;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+  }
   .izquierda{
     background-color: lightblue;
     flex: 1;
+    padding: 2.5rem;
   }
   .centro{
     background-color: lightcoral;
     flex: 1;
+    padding: 2.5rem;
   }
-  .derecha{
+  .derecha {
     background-color: lightgreen;
     flex: 1;
+    padding: 2.5rem;
+  }
+.derecha .cuerpo{
+  margin-top:6rem ;
+}
+  .cuerpo img{
+    width: 40rem;
+    height: 30rem;
+    border-radius: 3rem;
+  }
+  .cuerpo{
+    
+    border: black 1px solid;
+    background-color: rgba(240, 240, 240, 0.699);
+    border-radius: 2rem;
+    text-align: center;
+  }
+  .cuerpo li{
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 2.5rem;
+
+  }
+  svg:hover{
+    stroke: red;
+    stroke-width: 1.5px;
+    cursor: pointer;
   }
