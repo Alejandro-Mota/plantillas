@@ -14,7 +14,15 @@ html {
   header{
       height: 10vh;
       width: 100vw;
-      background-color: orangered;
+      background-color: #428C59;
+      padding: 1rem;
+  }
+  .logo{
+    font-size: 4rem;
+    color: whitesmoke;
+    display: flex;
+    margin-left: 5rem;
+    
   }
   main{
       height: 90vh;
@@ -25,19 +33,52 @@ html {
   .izquierda{
       flex: 1;
       background-color: palevioletred;
+      background-image:url(img/derecha.png) ;
+      background-size: cover;
   }
   .centro{
-      flex: 4;
-      background-color: whitesmoke;
+      flex: 1.5;
+      background-color: #ffffff;
+      background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23858585' fill-opacity='0.42' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
       display: flex;
       flex-direction: column;
+      box-shadow: 0px 11px 33px 3px rgba(0,0,0,0.73)
   }
-  .centro div{
+  .cuadrito{
     flex: 1;
-    background-color: goldenrod;
-    margin: .5rem;
+    background-color: rgb(235, 192, 84);
+    margin: 1rem 4rem;
+    border-radius: 3rem;
+  }
+  .cuadrito-contenido{
+    width: 100%;
+    height: 100%;
+    border-radius: 3rem;
+    background-color: rgba(0, 0, 0, 0.315);
   }
   .derecha{
     flex: 1;
     background-color: palevioletred;
+    background-image: url(img/izquierda.png);
+    background-size: cover;
+  }
+  .img1{
+    background-image: url(img/mate.jpg);
+   
+  }
+  .img2{
+    background-image: url(img/literatura.jpg);
+  }
+  .img3{
+    background-image: url(img/informatica.jpg);
+  }
+  .img4{
+    background-image: url(img/biologia.jpg);
+  }
+  .img5{
+    background-image: url(img/historia.png);
+    background-repeat: repeat;
+  }
+  .img6{
+    background-image: url(img/artes.jpg);
   }
